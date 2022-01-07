@@ -11,6 +11,27 @@ Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
+section {
+    box-sizing: border-box;
+    border: 1px solid rgb(131, 126, 126); 
+    width: 22%;
+    height: 78vh;   
+    margin: 10px;
+    float: left;
+}
+
+h2 {
+    margin: 2vh;
+}
+
+p {
+    padding: 2vh;
+}
+
+button {
+    margin: 2vh;
+}
+
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
